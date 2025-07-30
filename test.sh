@@ -10,3 +10,7 @@
 # tee: tee 명령어는 전달받은 스트림(원본 명령어의 stdout + stderr)을 다음과 같이 처리
 # 표준 출력으로 다시 출력: 터미널 화면에 내용을 그대로 보여줌
 # 파일로 저장: 동시에 지정된 파일(예: log.txt)에도 해당 내용을 저장함
+
+
+# escape sequence 해석 옵션
+echo -e "Hello\n\tWorld!"
